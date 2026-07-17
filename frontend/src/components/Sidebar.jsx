@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import Sarthak from "../assets/Sarthak.jpg.jpg";
 
 const Sidebar = () => {
   const location = useLocation();
@@ -41,10 +42,7 @@ const Sidebar = () => {
 
       {/* Navigation Links */}
       <nav className="flex-1 px-4 py-6 space-y-1.5 overflow-y-auto">
-        <Link
-          to="/dashboard"
-          className={getLinkClass("/dashboard")}
-        >
+        <Link to="/dashboard" className={getLinkClass("/dashboard")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -65,10 +63,7 @@ const Sidebar = () => {
           Dashboard
         </Link>
 
-        <Link
-          to="/appointments"
-          className={getLinkClass("/appointments")}
-        >
+        <Link to="/appointments" className={getLinkClass("/appointments")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -89,10 +84,7 @@ const Sidebar = () => {
           Appointments
         </Link>
 
-        <Link
-          to="/patients"
-          className={getLinkClass("/patients")}
-        >
+        <Link to="/patients" className={getLinkClass("/patients")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -113,10 +105,7 @@ const Sidebar = () => {
           Patients
         </Link>
 
-        <Link
-          to="/doctors"
-          className={getLinkClass("/doctors")}
-        >
+        <Link to="/doctors" className={getLinkClass("/doctors")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -134,10 +123,7 @@ const Sidebar = () => {
           Doctors
         </Link>
 
-        <Link
-          to="/departments"
-          className={getLinkClass("/departments")}
-        >
+        <Link to="/departments" className={getLinkClass("/departments")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -159,10 +145,7 @@ const Sidebar = () => {
           Departments
         </Link>
 
-        <Link
-          to="/billing"
-          className={getLinkClass("/billing")}
-        >
+        <Link to="/billing" className={getLinkClass("/billing")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -181,10 +164,7 @@ const Sidebar = () => {
           Billing
         </Link>
 
-        <Link
-          to="/pharmacy"
-          className={getLinkClass("/pharmacy")}
-        >
+        <Link to="/pharmacy" className={getLinkClass("/pharmacy")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -203,10 +183,7 @@ const Sidebar = () => {
           Pharmacy
         </Link>
 
-        <Link
-          to="/laboratory"
-          className={getLinkClass("/laboratory")}
-        >
+        <Link to="/laboratory" className={getLinkClass("/laboratory")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -227,10 +204,7 @@ const Sidebar = () => {
           Laboratory
         </Link>
 
-        <Link
-          to="/reports"
-          className={getLinkClass("/reports")}
-        >
+        <Link to="/reports" className={getLinkClass("/reports")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -249,10 +223,7 @@ const Sidebar = () => {
           Reports
         </Link>
 
-        <Link
-          to="/messages"
-          className={getLinkClass("/messages")}
-        >
+        <Link to="/messages" className={getLinkClass("/messages")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -270,10 +241,7 @@ const Sidebar = () => {
           Messages
         </Link>
 
-        <Link
-          to="/settings"
-          className={getLinkClass("/settings")}
-        >
+        <Link to="/settings" className={getLinkClass("/settings")}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -362,7 +330,7 @@ const Sidebar = () => {
         <div className="flex items-center justify-between p-2 rounded-xl hover:bg-gray-50 transition-colors cursor-pointer">
           <div className="flex items-center gap-3">
             <img
-              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&fit=crop&auto=format&q=80"
+              src={Sarthak}
               alt="Sarthak Tanpure"
               className="w-10 h-10 rounded-xl object-cover border border-gray-200"
             />

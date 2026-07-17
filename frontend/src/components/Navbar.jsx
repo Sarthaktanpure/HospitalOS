@@ -1,4 +1,5 @@
 import React from "react";
+import Sarthak from "../assets/Sarthak.jpg.jpg";
 
 const Navbar = () => {
   return (
@@ -139,7 +140,7 @@ const Navbar = () => {
         {/* User Profile Info (Short layout on mobile) */}
         <div className="flex items-center gap-3 pl-2 border-l border-gray-200">
           <img
-            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&fit=crop&auto=format&q=80"
+            src={Sarthak}
             alt="Sarthak Tanpure"
             className="w-9 h-9 rounded-xl object-cover border border-gray-150 shadow-sm"
           />
